@@ -124,22 +124,48 @@ body {
 .hero-banner-container {
 
   &__hero-banner-sections {
-       margin-top: 50px;
+    margin-top: 50px;
+
     &__section1 {
+      display: flex;
+      justify-content: space-between;
 
       &__posts {
 
-        display: flex;
-        column-gap: 20px;
+        &__top-posts {
+          display: flex;
+          column-gap: 20px;
 
-        &__left {
+          &__left-posts {
+            &__items {
+              border-right: 1px solid #DFDFDF;
+              padding-right: 19px;
 
-          &__left-posts{
-            border-right:  1px solid #DFDFDF;
-            padding-right: 19px;
+            }
+          }
 
+          &__mid {
+
+            img {
+              margin-bottom: 25px;
+            }
+
+            p {
+              color: #6D757F;
+              text-align: center;
+            }
+
+            h2 {
+              color: #183354;
+              font-size: 28px;
+              text-align: center;
+              margin-top: 11px;
+              margin-bottom: 19px;
+            }
           }
         }
+
+        &__left {}
 
         &__post-01 {
 
@@ -201,14 +227,15 @@ body {
         }
 
         &__mid {
-          
-          img{
+
+          img {
             margin-bottom: 23px;
           }
+
           p {
             color: #6D757F;
             text-align: center;
-            
+
           }
 
           h2 {
@@ -245,39 +272,39 @@ body {
           }
         }
 
-        &__right{
-          &__cards{
+        &__right {
+          &__cards {
             border-left: 1px solid #DFDFDF;
             padding-left: 19px;
             margin-top: 40px;
 
-            &__card1{
+            &__card1 {
               border-bottom: 1px solid #DFDFDF;
 
-             h3{
+              h3 {
                 margin-top: 14px;
               }
             }
 
-            &__card{
-               
-              &__image{
+            &__card {
+
+              &__image {
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
 
-                p{
+                p {
                   font-size: 17px;
                   color: #183354;
                 }
 
-                img{
+                img {
                   border-radius: 50%;
                   width: 70px;
                 }
               }
 
-              &__date{
+              &__date {
                 display: flex;
                 align-items: center;
                 column-gap: 5px;
@@ -286,16 +313,17 @@ body {
               }
             }
 
-            &__card2{
+            &__card2 {
               border-bottom: 1px solid #DFDFDF;
-              span{
+
+              span {
                 font-size: 13px;
                 color: #6D757F;
                 display: inline-block;
                 padding-top: 26px;
               }
 
-              &__date{
+              &__date {
                 display: flex;
                 align-items: center;
                 column-gap: 5px;
@@ -304,18 +332,19 @@ body {
               }
             }
 
-             &__card3{
+            &__card3 {
               border-bottom: 1px solid #DFDFDF;
-              span{
+
+              span {
                 font-size: 13px;
                 color: #6D757F;
                 display: inline-block;
                 padding-top: 26px;
               }
             }
-            
-             &__card4{
-              span{
+
+            &__card4 {
+              span {
                 font-size: 13px;
                 color: #6D757F;
                 display: inline-block;
@@ -324,6 +353,16 @@ body {
             }
           }
         }
+      }
+
+      &__slide-banner {
+
+        &__cards {
+          border-left: 1px solid #DFDFDF;
+          padding-left: 19px;
+          margin-top: 40px;
+        }
+
       }
     }
   }

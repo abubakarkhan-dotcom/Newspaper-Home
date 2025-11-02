@@ -93,14 +93,32 @@ body {
 .hero-banner-container__hero-banner-sections {
   margin-top: 50px;
 }
-.hero-banner-container__hero-banner-sections__section1__posts {
+.hero-banner-container__hero-banner-sections__section1 {
+  display: flex;
+  justify-content: space-between;
+}
+.hero-banner-container__hero-banner-sections__section1__posts__top-posts {
   display: flex;
   -moz-column-gap: 20px;
        column-gap: 20px;
 }
-.hero-banner-container__hero-banner-sections__section1__posts__left__left-posts {
+.hero-banner-container__hero-banner-sections__section1__posts__top-posts__left-posts__items {
   border-right: 1px solid #DFDFDF;
   padding-right: 19px;
+}
+.hero-banner-container__hero-banner-sections__section1__posts__top-posts__mid img {
+  margin-bottom: 25px;
+}
+.hero-banner-container__hero-banner-sections__section1__posts__top-posts__mid p {
+  color: #6D757F;
+  text-align: center;
+}
+.hero-banner-container__hero-banner-sections__section1__posts__top-posts__mid h2 {
+  color: #183354;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 11px;
+  margin-bottom: 19px;
 }
 .hero-banner-container__hero-banner-sections__section1__posts__post-01 {
   border-bottom: 1px solid #DFDFDF;
@@ -250,4 +268,9 @@ body {
   color: #6D757F;
   display: inline-block;
   padding-top: 26px;
+}
+.hero-banner-container__hero-banner-sections__section1__slide-banner__cards {
+  border-left: 1px solid #DFDFDF;
+  padding-left: 19px;
+  margin-top: 40px;
 }/*# sourceMappingURL=style.css.map */
